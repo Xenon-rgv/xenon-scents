@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact Us | Scentora</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="index.css">
+  <style>
+    body {
+      /* background-color:#2d0036 ; */
+      color: aliceblue;
+    }
+    .contact-info i {
+      font-size: 1.2rem;
+      margin-right: 10px;
+      color: #1570c0;
+    }
+  </style>
+</head>
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Xenon Scents</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse align-end float-end " id="navbarNav">
+                <ul class="navbar-nav  mx-auto">
+                    <li class="nav-item ">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="collection.html">collections</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+  <div class="container py-5">
+    <div class="text-center mb-4">
+      <h2 class="fw-bold">Contact xenon scents</h2>
+      <p class="text" style="color: aliceblue;">We’d love to hear from you — whether it’s a question,partnership, feedback, or collaboration.</p>
+    </div>
+
+    <div class="row g-4">
+      <!-- Contact Details -->
+      <div class="col-md-6">
+        <h5 class="mb-3">Our Details</h5>
+        <ul class="list-unstyled contact-info">
+          <li class="mb-2"><i class="bi bi-geo-alt"></i>123 Scent Street, Delta state, Nigeria</li>
+          <li class="mb-2"><i class="bi bi-telephone"></i>+234 800 000 0000</li>
+          <li class="mb-2"><i class="bi bi-envelope"></i>hello@scentora.com</li>
+          <li class="mb-2"><i class="bi bi-clock"></i>Mon–Fri: 9am – 6pm | Sat: 10am – 4pm</li>
+        </ul>
+
+        <!-- Social Media -->
+        <h6 class="mt-4">Connect with us</h6>
+        <div class="d-flex gap-3">
+          <a href="https://instagram.com/devXenon_" target="_blank" class="text-danger"><i class="bi bi-instagram fs-5"></i></a>
+          <a href="https://wa.me/2348149365540" target="_blank" class="text-success"><i class="bi bi-whatsapp fs-5"></i></a>
+          <a href="https://www.tiktok.com/@xenon_web_dev?_t=ZM-8x9EfeJLoYv&_r=1" target="_blank" class="text-white fs-5"><i class="bi bi-tiktok"></i></a>
+        </div>
+
+        <!-- Map Embed -->
+        <div class="mt-4">
+          <iframe src="https://www.google.com/maps?q=Abraka,+Nigeria&output=embed" width="100%" height="200" style="border:0;" allowfullscreen></iframe>
+        </div>
+      </div>
+
+      <!-- Contact Form -->
+      <div class="col-md-6">
+        <h5 class="mb-3">Send Us a Message</h5>
+        <form>
+          <div class="mb-3">
+            <label for="name" class="form-label">Your Name</label>
+            <input type="text" class="form-control" id="name" placeholder="John Doe" required>
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Email Address</label>
+            <input type="email" class="form-control" id="email" placeholder="you@example.com" required>
+          </div>
+          <div class="mb-3">
+            <label for="message" class="form-label">Message</label>
+            <textarea class="form-control" id="message" rows="5" placeholder="Write your message here..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-dark">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

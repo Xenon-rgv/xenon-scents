@@ -1,0 +1,67 @@
+/* .Xenon{
+   background-image: url(perfume3.jpg); 
+   obje
+} */
+
+img{
+    box-shadow: 0 0 10px rgb(202, 120, 202);
+}
+body{
+    background-color:rgba(0, 0, 0, 0.815);
+    font-family: Arial, sans-serif;
+}
+.Xenon{
+    box-shadow: 0 0 5px rgb(202, 120, 202);
+}
+.navbar {
+    background: linear-gradient(90deg, #1a0025 0%, #2d0036 100%);
+ 
+}
+
+.navbar .navbar-brand,
+.navbar .nav-link {
+    color: #faf7f7 !important; /* light purple for text */
+}
+
+.navbar .nav-link.active {
+    color: #fff !important; /* white for active link */
+}
+.card-body{  
+    background-color: #2d0036;
+    color: #fff;
+    text-align: center;
+}
+
+h2{
+    color: rgb(98, 22, 136) ;
+    font-weight: 600;
+    font-size: 35px;
+
+}
+
+.consultation {
+    background-color: #1a0025; /* dark purple */
+    color: #faf7f7; /* light purple */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(202, 120, 202, 0.5);
+}
+.consultation h2 {
+    color: #faf7f7; /* light purple for heading */
+}
+
+.paragraph1{
+    color: #faf7f7; /* light purple for text */
+    font-size: 18px;
+    line-height: 1.6;
+}
+.Image{
+    box-shadow: 0 0 10px rgba(202, 120, 202, 0.5);
+}
+
+
+.shopNow{
+    background-color: #2d0036;
+    color: #fff;
+}
+
